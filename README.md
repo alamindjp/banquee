@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [GitHub repo link](https://github.com/alamindjp/banquee.).
+[GitHub repo link](https://github.com/alamindjp/banquee.).
 
 ## use packages
 
