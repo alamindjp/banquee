@@ -4,13 +4,44 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Sarpanch:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-*{
+
+* {
   font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
 }
-.custom-container{
-width: 85%;
-margin: 0 auto;
-margin-bottom: 48;
+
+.custom-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 48;
+}
+
+.card-container {
+  /*grid grid-cols-5  */
+  height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.card-number {
+  font-size: 28px;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-number span{
+  font-family: 'Sarpanch', sans-serif;
+  letter-spacing: 3px;
+}
+
+.card_holder {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  padding-bottom: 48px;
+
 }
