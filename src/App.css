@@ -13,7 +13,9 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
 }
-
+.inter{
+  font-family: 'Inter', sans-serif;
+}
 .custom-container {
   width: 85%;
   margin: 0 auto;
@@ -34,7 +36,8 @@
   display: flex;
   justify-content: space-between;
 }
-.card-number span{
+
+.card-number span {
   font-family: 'Sarpanch', sans-serif;
   letter-spacing: 3px;
 }
@@ -44,4 +47,13 @@
   font-size: 12px;
   padding-bottom: 48px;
 
+}
+
+.mobile {
+  width: 380px;
+  height: 800px;
+  margin: 0 auto;
+  border: 10px solid #1A191E;
+  border-radius: 50px;
+  padding: 36px 25px 16px 25px ;
 }
