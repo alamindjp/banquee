@@ -36,7 +36,7 @@ const Features = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='mobile'>
+                <div className='mobile w-[380px]'>
                     <div className='flex justify-between'>
                         <p className='inter'>Current balance</p>
                         <p className='text-2xl'>$ 4.658,50</p>
@@ -82,21 +82,21 @@ const Features = () => {
                             <p>-9$</p>
                         </div>
                     </div>
-                    <div className='grid grid-cols-4 mt-5 py-2 justify-items-center'>
+                    <div className='grid grid-cols-4 py-2 justify-items-center'>
                         <div>
-                            <img className='pb-[3px] pl-2' src={VectorHome} alt="" />
+                            <img className='pl-2' src={VectorHome} alt="" />
                             <p className='text-xs'>Home</p>
                         </div>
                         <div>
-                            <img className='pb-[3px] pl-3' src={VectorSavings} alt="" />
+                            <img className='pl-3' src={VectorSavings} alt="" />
                             <p className='text-xs'>Savings</p>
                         </div>
                         <div>
-                            <img className='pb-[3px] pt-[2px] pl-[6px]' src={VectorCard} alt="" />
+                            <img className='pt-[2px] pl-[6px]' src={VectorCard} alt="" />
                             <p className='text-xs'>Cards</p>
                         </div>
                         <div>
-                            <img className='pb-[3px] pl-4' src={VectorAccount} alt="" />
+                            <img className='pl-4' src={VectorAccount} alt="" />
                             <p className='text-xs'>Account</p>
                         </div>
                     </div>

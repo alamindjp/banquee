@@ -19,7 +19,7 @@ const FeaturesApp = () => {
             <div className="hero-content grid grid-cols-2 gap-40">
                 <div>
                     <p className='text-xl mb-2'>Cards</p>
-                    <h1 className='text-6xl mb-4'>Manage your cards</h1>
+                    <h1 className='text-6xl mb-4'>Manage <br /> your cards</h1>
                     <p className='text-lg leading-8 mb-8'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     <ul>
                         <li className='flex items-center'>
@@ -36,13 +36,13 @@ const FeaturesApp = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='mobile'>
+                <div className='mobile w-[380px]'>
                     <div className='flex justify-between items-center'>
                         <img className='' src={arrow2} alt="" />
                         <p className='inter'>Cards</p>
-                        <img src={VectorHelp} alt="" />
+                       <img src={VectorHelp} alt="" />
                     </div>
-                    <div className='mt-5'>
+                    <div className='mt-10 mb-3'>
                         <img src={card} alt="" />
                     </div>
                     <div className='grid grid-cols-3 justify-items-center'>

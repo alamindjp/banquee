@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='custom-container border-t'>
-            <div className='flex mt-24'>
-                <div className='w-[550px]'><h4 className='text-3xl text-primary'>banquee.</h4></div>
+        <div className='custom-container'>
+            <div className='flex mt-14'>
+                <div className='w-[550px]'><h4 className='text-3xl text-primary mt-8'>banquee.</h4></div>
                 <footer className="footer p-10 text-base-content gap-20">
                     <div>
                         <a className="link link-hover text-lg">About</a>

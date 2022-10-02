@@ -10,7 +10,7 @@ const QnaSection = () => {
     const [check4,setCheck4]=useState(false)
     const [check5,setCheck5]=useState(false)
     return (
-        <div className="custom-container grid grid-cols-2 justify-items-center py-40">
+        <div className="custom-container grid grid-cols-2 justify-items-center pb-40">
             <div>
                 <h1 className='text-[64px]'>Need help?</h1>
                 <div className='flex my-5'>

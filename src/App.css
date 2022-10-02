@@ -18,13 +18,10 @@
 }
 .custom-container {
   width: 85%;
-  margin: 0 auto;
-  margin-bottom: 48;
 }
 
 .card-container {
-  /*grid grid-cols-5  */
-  height: 300px;
+  height: 200px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -32,7 +29,7 @@
 
 .card-number {
   font-size: 28px;
-  padding-bottom: 37px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -45,7 +42,6 @@
 .card_holder {
   font-family: 'Inter', sans-serif;
   font-size: 12px;
-  padding-bottom: 48px;
 
 }
 
